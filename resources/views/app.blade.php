@@ -64,9 +64,8 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="slide-content animated fadeInDown">
-                            <span class="section-icon"><img src="assets/images/lakerat-logo.jpg" /></span>
-                            <h1>Lake Rat Bar &amp; Grill</h1>
-                            <h2>Food &amp; Buzz</h2>
+                            <img src="assets/images/logos/logo-720.png" />
+                            <span class="section-icon"><h1>(573) 693-9000<br />1104 Bagnell Dam Boulevard<br />Lake Ozark, Missouri</h1></span>
                         </div>
                     </div>
                 </div><!-- /.row -->
@@ -99,7 +98,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li><a class="page-scroll" href="#unique">The Grill</a></li>
+                <li><a class="page-scroll" href="#nav">The Grill</a></li>
                 <li><a class="page-scroll" href="#menus">The Drinks</a></li>
             </ul>
             <a class="navbar-brand page-scroll" href="#header">
@@ -128,9 +127,13 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <span class="section-icon">s</span>
+                {{--<span class="section-icon">s</span>--}}
                 <h2 class="section-heading">Lake Rat is a unique, fun and wild lakeside bar with good food and good times.</h2>
                 <h3 class="section-subheading">After spending time on the lake, come grab a drink and have a bite.</h3>
+                <div class="image col-lg-6 col-lg-offset-2 col-lg-no-padding">
+                    <img src="assets/images/bar.jpg" />
+                </div>
+                <div class="clearfix"></div>
                 <a href="#menus" class="page-scroll">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
