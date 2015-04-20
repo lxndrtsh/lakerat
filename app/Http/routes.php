@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::get('/menu', 'WelcomeController@menu');
 
 Route::get('home', 'HomeController@index');
 
@@ -19,3 +20,8 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::group(['prefix'=>'admin'], function()
+{
+    Route::get('/dashboard', 'Admin\AdminController@dashboard');
+});
