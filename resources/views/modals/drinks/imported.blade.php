@@ -12,20 +12,9 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <!-- News Article Goes Here -->
-                        <span class="section-icon">f</span>
-                        <h2 class="section-heading">Lunch</h2>
-                        <h3 class="section-subheading">For those with exquisite taste only</h3>
-                        <img class="img-responsive img-centered" src="assets/images/lunch1.jpg" alt="" data-no-retina>
-
-                        <h4 class="section-subsubheading">Fresh baguette with egg, tomato and lettuce</h4>
-
-                        <p>Nut &amp; fruit granola served with fresh yoghurt.<br><strong>&dollar;14.50</strong></p>
-
-                        <img class="img-responsive img-centered" src="assets/images/lunch2.jpg" alt="" data-no-retina>
-
-                        <h4 class="section-subsubheading">Homemade Pizza</h4>
-
-                        <p>Fresh base topped with onion, cheese and lettuce.<br><strong>&dollar;15.00</strong></p>
+                        <span class="section-icon">W</span>
+                        <h2 class="section-heading">Imported Beers</h2>
+                        <h3 class="section-subheading">Our drink menu is coming soon</h3>
 
                     </div>
                 </div>

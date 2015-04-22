@@ -12,20 +12,9 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <!-- News Article Goes Here -->
-                        <span class="section-icon">a</span>
-                        <h2 class="section-heading">BREAKFAST</h2>
-                        <h3 class="section-subheading">Your healthy energy boost to start the day</h3>
-                        <img class="img-responsive img-centered" src="assets/images/breakfast1.jpg" alt="" data-no-retina>
-
-                        <h4 class="section-subsubheading">Healthy Cereal with Fruit</h4>
-
-                        <p>Nut &amp; fruit granola served with fresh yoghurt.<br><strong>&dollar;8.50</strong></p>
-
-                        <img class="img-responsive img-centered" src="assets/images/breakfast2.jpg" alt="" data-no-retina>
-
-                        <h4 class="section-subsubheading">Homemade Crepés with Fruit</h4>
-
-                        <p>Crepés served with fresh fruit.<br><strong>&dollar;10.50</strong></p>
+                        <span class="section-icon">W</span>
+                        <h2 class="section-heading">Domestic Beers</h2>
+                        <h3 class="section-subheading">Our drink menu is coming soon</h3>
 
                     </div>
                 </div>
