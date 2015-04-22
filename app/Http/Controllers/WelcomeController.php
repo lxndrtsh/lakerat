@@ -13,14 +13,15 @@ class WelcomeController extends Controller {
 	|
 	*/
 
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
+    /**
+     * Create a new controller instance.
+     *
+     * @param ViewController $viewController
+     */
+	public function __construct(ViewController $viewController)
 	{
 		$this->middleware('guest');
+        $this->view = $viewController;
 	}
 
 	/**
@@ -30,6 +31,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
+        $this->view->trigger();
 		return view('welcome');
 	}
 
