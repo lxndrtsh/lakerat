@@ -13,19 +13,11 @@
                     <div class="modal-body">
                         <!-- News Article Goes Here -->
                         <span class="section-icon">a</span>
-                        <h2 class="section-heading">BREAKFAST</h2>
+                        <h2 class="section-heading">Current Events</h2>
                         <h3 class="section-subheading">Your healthy energy boost to start the day</h3>
-                        <img class="img-responsive img-centered" src="assets/images/breakfast1.jpg" alt="" data-no-retina>
 
-                        <h4 class="section-subsubheading">Healthy Cereal with Fruit</h4>
-
-                        <p>Nut &amp; fruit granola served with fresh yoghurt.<br><strong>&dollar;8.50</strong></p>
-
-                        <img class="img-responsive img-centered" src="assets/images/breakfast2.jpg" alt="" data-no-retina>
-
-                        <h4 class="section-subsubheading">Homemade Crepés with Fruit</h4>
-
-                        <p>Crepés served with fresh fruit.<br><strong>&dollar;10.50</strong></p>
+                        <h4 class="section-subsubheading">Grand Opening!</h4>
+                        <p>The crew over here at Lake Rat Bar &amp; Grill are happy to invite you to our grand opening celebration. Come check out the new place, grab some drinks, and meet some new friends! It's sure to be an absolute blast.</p>
 
                     </div>
                 </div>

@@ -70,9 +70,8 @@
 
             <div class="col-md-3 col-sm-6 inner">
                 <h3 class="section-subheading">Opening Times <span>X</span></h3>
-                <p><em>Mon &ndash; Thu</em>&nbsp;&nbsp;<strong>12pm &ndash; 10:30pm</strong></p>
-                <p><em>Fri &ndash; Sat</em>&nbsp;&nbsp;<strong>12pm &ndash; 11pm</strong></p>
-                <p><em>Sun</em>&nbsp;&nbsp;<strong>12pm &ndash; 10:30pm</strong></p>
+                <p><em>Mon &ndash; Sat</em>&nbsp;&nbsp;<strong>11am &ndash; 2am</strong></p>
+                <p><em>Sunday</em>&nbsp;&nbsp;<strong>11am &ndash; Midnight</strong></p>
 
             </div><!-- /.col -->
 
