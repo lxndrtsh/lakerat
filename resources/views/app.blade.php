@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Lake Rat Bar and Grill is a lakeside restaurant located in the Lake of the Ozarks. Open weekdays and Saturdays from 11am to 2am and Sundays until midnight and located off of Bagnell Dam Blvd.">
+    <meta name="keywords" content="lake rat bar grill, lake of the ozarks, bar, grill, restaurant, lake side bar, lake side grill">
+    <meta name="author" content="lxndrtsh">
 
     <title>Lake Rat Bar &amp; Grill</title>
 
