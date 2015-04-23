@@ -11,10 +11,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <!-- News Article Goes Here -->
-                        <span class="section-icon">W</span>
-                        <h2 class="section-heading">Domestic Beers</h2>
-                        <h3 class="section-subheading">Our drink menu is coming soon</h3>
+                        {!! $content->where('alias','domestic-beers')->first()->content !!}
 
                     </div>
                 </div>

@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lake Rat Bar and Grill is a lakeside restaurant located in the Lake of the Ozarks. Open weekdays and Saturdays from 11am to 2am and Sundays until midnight and located off of Bagnell Dam Blvd.">
-    <meta name="keywords" content="lake rat bar grill, lake of the ozarks, bar, grill, restaurant, lake side bar, lake side grill">
+    <meta name="description" content="{!! $content->where('alias','meta-description')->first()->content !!}">
+    <meta name="keywords" content="{!! $content->where('alias','meta-keywords')->first()->content !!}">
     <meta name="author" content="lxndrtsh">
 
-    <title>Lake Rat Bar &amp; Grill</title>
+    <title>{!! $content->where('alias','meta-title')->first()->content !!}</title>
 
     <!-- Retina.js -->
     <!-- WARNING: Retina.js doesn't work if you view the page via file:// -->
@@ -47,8 +47,7 @@
 <div class="loading-screen">
     <div class="content animated fadeInDown">
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <h2 class="section-heading">Grilling the page</h2>
-        <h3 class="section-subheading">Please wait...</h3>
+        {!! $content->where('alias','page-load')->first()->content !!}
     </div>
 </div>
 
@@ -65,25 +64,18 @@
 
             <div class="col-md-3 col-sm-6 inner">
                 <h3 class="section-subheading">Who we are <span>M</span></h3>
-                <p>We're a fun loving Bar & Grill dedicated to serving the best drinks and food around.</p>
-                {{--<a href="about.html" class="txt-btn">More about us</a>--}}
+                {!! $content->where('alias','who-we-are-text')->first()->content !!}
             </div><!-- /.col -->
 
             <div class="col-md-3 col-sm-6 inner">
                 <h3 class="section-subheading">Opening Times <span>X</span></h3>
-                <p><em>Mon &ndash; Sat</em>&nbsp;&nbsp;<strong>11am &ndash; 2am</strong></p>
-                <p><em>Sunday</em>&nbsp;&nbsp;<strong>11am &ndash; Midnight</strong></p>
+                {!! $content->where('alias','opening-times-text')->first()->content !!}
 
             </div><!-- /.col -->
 
             <div class="col-md-3 col-sm-6 inner">
                 <h3 class="section-subheading">Get in Touch <span>V</span></h3>
-                <p>We're always answering the phone during normal business hours.</p>
-                <ul class="contacts">
-                    <li><i class="icon-location contact"></i> 1104 Bagnell Dam Boulevard, Lake Ozark, Missouri</li>
-                    <li><i class="icon-mobile contact"></i> (573) 693-9000</li>
-                    <li><a href="#"><i class="icon-mail-1 contact"></i> info@lake-rat.com</a></li>
-                </ul><!-- /.contacts -->
+                {!! $content->where('alias','get-in-touch-text')->first()->content !!}
             </div><!-- /.col -->
 
             <div class="col-md-3 col-sm-6 inner">
@@ -109,7 +101,7 @@
 
     <div class="footer-bottom">
         <div class="container inner">
-            <p class="pull-left">&copy; 2015 Lake Rat Bar &amp; Grill. All rights reserved.</p>
+            <p class="pull-left">&copy; {{ date('Y') }} Lake Rat Bar &amp; Grill. All rights reserved.</p>
             <ul class="footer-menu pull-right">
                 <li><a href="/">Home</a></li>
                 <li><a href="/#unique">The Grill</a></li>

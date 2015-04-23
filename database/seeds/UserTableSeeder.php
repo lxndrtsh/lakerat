@@ -10,7 +10,7 @@ class UserTableSeeder extends Seeder
 {
     public function run()
     {
-        DB::table('users')->delete();
+        DB::table('users')->truncate();
         $now = new \Datetime;
 
         User::create([

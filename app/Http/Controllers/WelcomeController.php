@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use App\Content;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -17,11 +19,12 @@ class WelcomeController extends Controller {
      * Create a new controller instance.
      *
      * @param ViewController $viewController
+     * @param Content $content
      */
-	public function __construct(ViewController $viewController)
+	public function __construct(ViewController $viewController, Content $content)
 	{
-		$this->middleware('guest');
         $this->view = $viewController;
+        $this->content = $content;
 	}
 
 	/**
@@ -32,12 +35,13 @@ class WelcomeController extends Controller {
 	public function index()
 	{
         $this->view->trigger();
-		return view('welcome');
+
+        return view('welcome',['content'=>$this->content]);
 	}
 
     public function menu()
     {
-        return view('menu');
+        return view('menu',['content'=>$this->content]);
     }
 
 }

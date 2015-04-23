@@ -14,8 +14,6 @@
 Route::get('/', 'WelcomeController@index');
 Route::get('/menu', 'WelcomeController@menu');
 
-Route::get('home', 'HomeController@index');
-
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
@@ -24,4 +22,9 @@ Route::controllers([
 Route::group(['prefix'=>'admin'], function()
 {
     Route::get('/dashboard', 'Admin\AdminController@dashboard');
+    Route::get('/data/views', 'Admin\AdminController@__getViewData');
+    Route::get('/data/browsers', 'Admin\AdminController@__getBrowserData');
+
+    Route::post('/content', 'Admin\ContentController@update');
+    Route::get('/content/{alias}', 'Admin\ContentController@show');
 });

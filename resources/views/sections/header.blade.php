@@ -11,8 +11,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="slide-content animated fadeInDown">
-                            <img src="assets/images/logos/logo-720.png" />
-                            <span class="section-icon"><h1>(573) 693-9000<br />1104 Bagnell Dam Boulevard<br />Lake Ozark, Missouri</h1></span>
+                            {!! $content->where('alias','header-text')->first()->content !!}
                         </div>
                     </div>
                 </div><!-- /.row -->
