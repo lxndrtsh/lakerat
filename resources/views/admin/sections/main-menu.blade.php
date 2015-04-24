@@ -7,7 +7,7 @@
 
         <ul class="nav nav-sidebar">
 
-            <li><a href=""><i class="fa fa-bar-chart-o"></i><span class="hidden-sm text"> Dashboard</span></a></li>
+            <li><a href="/admin/dashboard"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm text"> Dashboard</span></a></li>
 
             <li>
                 <a class="dropmenu" href="#"><i class="fa fa-eye"></i><span class="hidden-sm text"> Content</span> <span class="chevron closed"></span></a>

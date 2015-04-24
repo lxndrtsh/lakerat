@@ -30,8 +30,12 @@
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="form-group">
                                     <input type="hidden" name="id" value="{{ $content->id }}" />
-                                    <textarea class="form-control" rows="25" name="content">{{ $content->content }}</textarea>
+                                    <textarea id="content" class="form-control" rows="25" name="content">{{ $content->content }}</textarea>
+                                    <div class="editor-area">
+                                        <div id="editor">{{ $content->content }}</div>
+                                    </div>
                                 </div>
+                                <div class="clearfix"></div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                             <div class="clearfix"><br /><br /></div>
@@ -58,4 +62,19 @@
         </div><!--/col-->
 
     </div><!--/row-->
+@endsection
+
+@section('custom-js')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.9/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $('#content').hide();
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/html");
+        editor.on("change", function(e) {
+            var val = editor.getSession().getValue();
+            $('#content').val(val);
+            console.log($('#content').val());
+        });
+    </script>
 @endsection

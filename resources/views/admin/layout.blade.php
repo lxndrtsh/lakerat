@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/admin/assets/css/style.min.css" rel="stylesheet">
+    <link href="/admin/assets/css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -128,8 +129,9 @@
 
 <!-- inline scripts related to this page -->
 <script src="/admin/assets/js/pages/index.js"></script>
-
 <!-- end: JavaScript-->
+
+@yield('custom-js')
 
 </body>
 </html>

@@ -110,7 +110,9 @@ $(document).ready(function(){
         });
     };
 
-    getBrowsers();
+    if($('#hero-donut').length) {
+        getBrowsers();
+    }
 
 
 
@@ -156,6 +158,8 @@ $(document).ready(function(){
         });
     }
 
-    getVisits();
+    if($('#flot-main').length) {
+        getVisits();
+    }
 	
 });
