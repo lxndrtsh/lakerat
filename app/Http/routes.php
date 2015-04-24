@@ -19,6 +19,10 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+Route::get('/home', function() {
+    return redirect('admin/dashboard');
+});
+
 Route::group(['prefix'=>'admin'], function()
 {
     Route::get('/dashboard', 'Admin\AdminController@dashboard');
