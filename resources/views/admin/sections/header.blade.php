@@ -14,17 +14,7 @@
             <li><a href="#" id="main-menu-toggle"><i class="fa fa-bars"></i></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle avatar" data-toggle="dropdown"><img src="/admin/assets/img/avatar.jpg"></a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-menu-header text-center">
-                        <strong>Account</strong>
-                    </li>
-                    <li><a href="#"><i class="fa fa-wrench"></i> Settings</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#"><i class="fa fa-lock"></i> Logout</a></li>
-                </ul>
-            </li>
+            <li><a href="/auth/logout"><i class="fa fa-lock"></i></a></li>
         </ul>
     </div>
 </div>
